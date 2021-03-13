@@ -1,9 +1,14 @@
+import React from "react";
+
 import "./App.css";
+import NavBar from "./NavBar.js";
+import MainRequest from "./MainRequest.js";
 
 function App() {
   return (
     <div className="App">
-      <h1>Nav</h1>
+      <NavBar />
+      <MainRequest />
     </div>
   );
 }
